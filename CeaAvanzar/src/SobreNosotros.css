@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+.SobreNosotros {
+    background-color: #F5FFFA;
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    min-width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btnOn {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #BF930D;
+    color: #ffff;
+    border-color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnOn:hover {
+    background-color: #BF930D;
+}
+
+.infoNosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoLegal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.misionyvision {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.franja-avanzar {
+    width: 380px;
+    margin-left: -145px;
+    margin-top: -20px;
+}
+
+.franja-avanzar2 {
+    width: 380px;
+    margin-left: -145px;
+    margin-top: -10px;
+}
+
+.textMision {
+    width: 60%;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.textVision {
+    width: 60%;
+    height: 100%;
+    margin-top: 110px;
+}
+
+.cardInfo {
+    display: grid;
+    background-color: #FFFFFF;
+    border-color: #D4AF37;
+    box-shadow: 0px 1px 8px black;
+    width: 400px;
+    height: 280px;
+    align-content: center;
+    text-align: justify;
+    padding: 20px 16px;
+    border-radius: 12px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    gap: 13px;
+}
+
+.cardInfo2 {
+    display: grid;
+    background-color: #FFFFFF;
+    border-color: #D4AF37;
+    box-shadow: 0px 1px 8px black;
+    width: 800px;
+    height: 480px;
+    align-content: center;
+    text-align: justify;
+    padding: 20px 16px;
+    border-radius: 12px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    gap: 13px;
+}
+
+.cardMisionyVision {
+    display: flex;
+    background-color: #FFFFFF;
+    border-color: #D4AF37;
+    box-shadow: 0px 1px 8px black;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 16px;
+    border-radius: 12px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    gap: 13px;
+}
+
+.mision {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: #FF8215;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.video video{
+    width: 750px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:768px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        justify-content: flex-end;
+    }
+
+    .SobreNosotros {
+        display: block;
+        width: 390px;
+        height: auto;
+    }
+    .home {
+        display: block;
+        width: 390px;
+        height: auto;
+    }
+
+    .video video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 300px;
+        margin-top: 40px;
+        margin-bottom: 150px;
+    }
+
+    .infoNosotros {
+        flex-direction: column;
+    }
+
+    .cardInfo {
+        width: 300px;
+        height: auto;
+        margin-top: -90px;
+        margin-bottom: -50px;
+    }
+
+    .cardInfo2 {
+        width: 300px;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    .misionyvision {
+        flex-direction: column;
+    }
+
+    .cardMisionyVision {
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .mision {
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+    }
+
+    .textMision {
+        width: 80%;
+        height: 100%;
+        margin-top: -60px;
+    }
+
+    .franja-avanzar {
+        width: 280px;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    /* .vision {
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+    } */
+
+    .textVision {
+        width: 80%;
+        height: 100%;
+        margin-top: -60px;
+    }
+
+    .franja-avanzar2 {
+        width: 280px;
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+
+    .infoLegal {
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+    .infoLegal p {
+        margin-bottom: 20px;
+    }
+}

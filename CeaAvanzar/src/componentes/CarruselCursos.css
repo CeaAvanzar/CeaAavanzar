@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+.cursos {
+    background-color: #F5FFFA;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: -webkit-fill-available;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.mySwiper{
+    width: 900px;
+    height: 500px;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 280px;
+    height: 450px;
+    margin-top: 50px;
+}
+.pract{
+    margin-top: 40px;
+}
+.txtInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenesCarrusel{
+    display: flex;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.swiper-slide h1{
+    display: flex;
+    margin-top: -90px;
+    color: #FF8215;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+}
+.swiper-slide h2{
+    display: flex;
+    margin-top: -60px;
+    color: #FF8215;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+.swiper-slide h3{
+    display: flex;
+    margin-top: -40px;
+    color: #FF8215;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+.swiper-slide p{
+    margin-top: -30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+.cardCurso {
+    display: grid;
+    background-color: #FFFFFF;
+    border-color: #D4AF37;
+    box-shadow: 0px 1px 8px black;
+    width: 280px;
+    height: 420px;
+    align-content: flex-start;
+    text-align: center;
+    justify-items: center;
+    padding: 20px 16px;
+    border-radius: 12px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    gap: 13px;
+}
+.btnCurso {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF8215;
+    color: #ffff;
+    border-color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: grid;
+    align-content: center;
+}
+.gif{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.logos-bancos{
+    width: 80px;
+    height: 80px;
+    margin-top: -30px;
+}
+.tarjetas{
+    width: 150px;
+    height: 100px;
+}
+.logos-bancos2{
+    width: 80px;
+    height: 80px;
+}
+.metodos-de-pago{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    margin-top: -50px;
+}
+.metodos-de-pago2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    margin-top: -25px;
+}
+.metodos-de-pago3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    height: auto;
+    margin-top: -50px;
+}
+@media screen and (max-width:768px){
+    .mySwiper{
+        width: 300px;
+        height: 600px;
+    }
+    .swiper-slide{
+        width: 250px;
+        height: 500px;
+    }
+    .cardCurso {
+        width: 300px;
+        height: 500px;
+    }
+    .swiper-button-next {
+        display: none;
+    }
+    .swiper-button-prev {
+        display: none;
+    }
+    .swiper-slide h1{
+        margin-top: -40px;
+    }
+    .swiper-slide h2{
+        margin-top: -20px;
+    }
+    .swiper-slide h3{
+        margin-top: -15px;
+    }
+    .txtInfo{
+        margin-top: 20px;
+    }
+    .pract{
+        margin-top: 50px;
+    }
+}

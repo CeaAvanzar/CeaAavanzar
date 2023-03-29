@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#root{
+    margin: 0;
+    padding: 0;
+}
+.logo-avanzar{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+}
+.header{
+    background-image: url(https://i.postimg.cc/8zx7HKvw/background-carro-avanzar.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    margin-left: 300px;
+}
+.container-fluid{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.btnOff {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF8215;
+    color: #ffff;
+    border-color: #ffff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btnOff:hover {
+    background-color: #BF930D;
+}
+.texto{
+    color: #ffff;
+    text-shadow: 0px 1px 8px black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 120px;
+    float: right;
+}
+.navbar-toggler-icon {
+    background-image: url(https://i.postimg.cc/ydPxxgvx/MENU-DESPLEGABLE.png);
+}
+.navbar-toggler {
+color: #fff;  
+}
+
+@media screen and (max-width:768px){
+    .header{
+        background-image: url('https://i.postimg.cc/rmZsDfqS/background-avanzar-celular.png');
+    }
+    .logo-avanzar{
+        height: 60px;
+    }
+    .texto{
+        font-size: 20px;
+        margin-top: -200px;
+        margin-right: 10px;
+        float: right;
+    }
+    .container-fluid{
+        margin: 0px;
+        justify-content: flex-end;
+        position: relative;
+    }
+    .navbar-collapse.collapse.show{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #FF8215;
+        opacity: 70%;
+       position: relative;
+    }
+}

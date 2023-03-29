@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+.swiper-slide2{
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+.mySwiper2{
+    width: 800px;
+    height: 300px;
+}
+.swiper-button-next {
+    color: #FF8215;
+    background-image: url(../../public/img/next.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+.swiper-button-next::after {
+    display: none;
+  }
+.swiper-button-prev {
+    color: #FF8215;
+    background-image: url(../../public/img/prev.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+.swiper-button-prev::after {
+    display: none;
+  }
+.icono-ubic{
+    width: 70px;
+    height: 60px;
+    margin-top: 50px;
+}
+.direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direcc{
+    margin-top: 55px;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+}
+@media screen and (max-width:768px){
+    .swiper-slide2{
+        width: 250px;
+        height: auto;
+        
+    }
+    .mySwiper2{
+        margin-top: 30px;
+        width: 250px;
+        height: 280px;
+    }
+    .imagenesCarrusel {
+        width: 250px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .mapa{
+       margin: 30px;
+    }
+}
